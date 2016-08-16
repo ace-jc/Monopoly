@@ -14,7 +14,7 @@ public class Monopoly {
     public Monopoly(){
         // setup game board
         Board mBoard = new Board();
-        for(int i=0; i<10000000; ++i){
+        for(int i=0; i<1000000; ++i){
             mBoard.advance(diceRoll(), rand);
         }
         mBoard.displayStats();

@@ -64,7 +64,7 @@ public class Board {
             copyOfOriginal.add(i, stats.get(i));
         }
         Collections.sort(copyOfOriginal);
-        System.out.println("###########");
+        System.out.println("Board position and hits out of 1 million");
         for(int i=0; i<copyOfOriginal.size(); ++i){
             // looping over sorted list
             for(int j=0; j<stats.size(); ++j){
